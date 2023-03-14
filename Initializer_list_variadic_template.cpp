@@ -1,3 +1,5 @@
+// Source: https://www.cppstories.com/2023/initializer_list_improvements/
+
 #include <iostream>
 #include <vector>
 #include <memory>
