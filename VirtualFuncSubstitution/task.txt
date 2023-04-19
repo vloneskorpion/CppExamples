@@ -1,0 +1,13 @@
+We want to monitor some set of devices on same network that we are on
+-> Each device type is unique in how we must interact with it
+-> It is not possible to know the device's connection information before we join the network - we must find it in-situ
+
+Design considerations
+
+Device detection
+-> Easiest to ﬁnd all devices of a single type at once
+-> One scan per device type 
+
+Device state monitoring
+-> Need to allow each device type to have diﬀerent communication mechanisms
+-> Want to update state only on-command to avoid network overhead
